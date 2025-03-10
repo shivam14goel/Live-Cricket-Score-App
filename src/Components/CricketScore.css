@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    background-color: #653e3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* .Header:hover{
+    color: rgb(47, 122, 47);
+} */
+
+.input-container{
+    /* margin: auto; */
+    text-align: center;
+    background-color: #653e3e;
+
+
+}
+
+.input-container input{
+    width: 20vw;
+    height: 5vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+/* .input-container input:focus{
+    background-color: rgb(47, 122, 47);
+    color: white;
+} */
+
+.input-container button{
+    width: 5vw;
+    height: 5vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    cursor: pointer;
+}
+
+.input-container button:hover{
+    background-color: rgb(47, 122, 47);
+    color: white;
+}
+
+.score-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(93, 91, 91, 0.334);
+    /* margin: auto; */
+}
+
+.score{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(149, 213, 213);
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.team{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
